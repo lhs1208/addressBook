@@ -19,9 +19,6 @@ public class contactTest {
 	//이름이 여러명일떄
 	public static void manyData(){
 		
-		//분명 어디서는 총 주소록이 몇개인지 재는게 있었는데 기억이 안나네
-		//여기서 중복된 이름은 1개로 치는 그런 문제였는데
-		
 		contact.load("test2.csv");
 		//중복된 홍길동은 1개로 친다.
 		//이름이 홍길동인 사람의 번호가 몇개인지 보내준다.
